@@ -1,0 +1,125 @@
+
+<html>
+    <head>
+      <title>MobileNet</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+      <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+  
+      <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+  
+    <body>
+      <center>
+  <div class="col-xs-12 header_div container">
+  <h2>
+  Case Study 
+  <img src="Icon.gif" style="width: 100px;">
+  </h2>
+  
+ <ol>
+     <div class="text_images_and_result bob">
+         <li>
+             <b> Test Image - </b>
+             <img src="Pen.jpg" class="img-responsive">
+         </li>
+         <h5> Output on <b>Microsoft Azure Model</b> - 
+        <span>wall</span>
+        </h5>
+        <h5> Output on<b> MobileNet Model</b> - 
+            <span>lighter </span>
+            </h5>
+            <br>
+            
+            <div class="mini_result" style="background-color:lightblue; border-radius: 15px; padding: 10px;">
+                <h4> Result - </h4>
+            <hr>
+            <h4>MobileNet Was closer</h4>
+            </div>
+     </div>
+     <hr>
+     <div class="text_images_and_result bob">
+      <li>
+          <b> Test Image - </b>
+          <img src="Glue.jpg" class="img-responsive">
+      </li>
+      <h5> Output on <b> Microsoft Azure Model</b> - 
+     <span>bottle</span>    
+     </h5>
+     <h5> Output on<b> MobileNet Model</b> - 
+         <span>hair spray </span>
+         </h5>
+         <div class="mini_result" style="background-color:lightblue; border-radius: 15px; padding: 10px;">
+             <h4> Result - </h4>
+         <hr>
+         <h4>Azure was closer</h4>
+         </div>
+  </div>
+  <hr>
+  <div class="text_images_and_result bob">
+    <li>
+        <b> Test Image - </b>
+        <img src="Remote.jpg" class="img-responsive">
+    </li>
+    <h5> Output on<b> Microsoft Azure Model</b> - 
+   <span>remote</span>
+   </h5>
+   <h5> Output on<b> MobileNet Model</b> - 
+       <span>remote control</span>
+       </h5>
+       <div class="mini_result" style="background-color:lightblue; border-radius: 15px; padding: 10px;">
+           <h4> Result - </h4>
+       <hr>
+       <h4>MobileNet is closer</h4>
+       </div>
+</div>
+<hr>
+<div class="text_images_and_result bob">
+  <li>
+      <b> Test Image - </b>
+      <img src="Scale.jpg" class="img-responsive">
+  </li>
+  <h5> Output on<b> Microsoft Azure Model</b> - 
+ <span>Stick</span>
+ </h5>
+ <h5> Output on<b> MobileNet Model</b> - 
+     <span>ruler</span>
+     </h5>
+     <div class="mini_result" style="background-color:lightblue; border-radius: 15px; padding: 10px;">
+         <h4> Result - </h4>
+     <hr>
+     <h4>MobileNet was closer </h4>
+     </div>
+</div>
+<hr>
+</center>
+<div class=" bob2" style=" color: lightblue;">
+    <h3> I tested 4 objects and got a total score of 1 out of 4 correct. Even though the objects were not all guessed correctly MobileNet was closer to guess all objects. </h3>
+       
+ 
+  
+   
+ </ol>
+ 
+     
+  
+  
+    </div>
+  <script src="main.js"></script>
+    </body>
+  </html>
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
